@@ -30,3 +30,7 @@
 # Vim
 *.swp
 
+# Arduino
+*.elf
+*.hex
+
