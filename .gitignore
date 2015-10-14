@@ -34,3 +34,6 @@
 *.elf
 *.hex
 
+# PlatformIO
+*.sconsign.dblite
+*.pioenvs
