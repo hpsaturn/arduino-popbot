@@ -3,6 +3,7 @@ void Servo_Home(){
    Servo_Move(1250);
    Servo_Move(1250);
 }
+
 void Servo_Move(int val){
    int i;
    for(i=0;i<60;i++){
