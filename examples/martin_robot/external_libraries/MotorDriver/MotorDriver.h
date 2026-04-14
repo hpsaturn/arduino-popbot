@@ -3,12 +3,12 @@
 #include <Arduino.h>
 
 /******Pins definitions*************/
-#define MOTORSHIELD_IN1	D5
-#define MOTORSHIELD_IN2	D6
-#define MOTORSHIELD_IN3	D7
-#define MOTORSHIELD_IN4	D8
-#define SPEEDPIN_A		D9
-#define SPEEDPIN_B		D10
+#define MOTORSHIELD_IN1	5
+#define MOTORSHIELD_IN2	6
+#define MOTORSHIELD_IN3	8
+#define MOTORSHIELD_IN4	7
+#define SPEEDPIN_A		9
+#define SPEEDPIN_B		10
 
 /**************Motor ID**********************/
 #define MOTORA 			0

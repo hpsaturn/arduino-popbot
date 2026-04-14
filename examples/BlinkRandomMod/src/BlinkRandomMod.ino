@@ -15,7 +15,7 @@
 // give it a name:
 
 int led = 13;
-int led_delay=30;
+int led_delay=20;
 long zero_count;
 long ones_count;
 long count;

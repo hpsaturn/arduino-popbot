@@ -4,16 +4,17 @@
  * Running 90 Degree Turnleft And Turnright
  ********************************************************************************/
 
+#include <Arduino.h>
 #include "I2Cdev.h"
 
 //MOTOR CONTROLLER
-int ENA = 10;
-int IN1 = 6;
-int IN2 = 7;
-int IN3 = 8;
-int IN4 = 9;
-int ENB = 11;
-int BEEP =12;
+#define ENA  9
+#define IN1  5
+#define IN2  6
+#define IN3  7
+#define IN4  8
+#define ENB  10
+#define BEEP 12
 
 int MAX_CICLES=3;
 int cicles=0;
